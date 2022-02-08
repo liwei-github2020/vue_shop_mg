@@ -5,6 +5,8 @@ import axios from 'axios'
 // 引入element-ui
 import './plugins/element.js'
 import 'element-ui/lib/theme-chalk/index.css';
+// 引入树形表格
+import treeTable from 'vue-table-with-tree-grid'
 import './assets/iconfont.css'
 import './assets/css/global.css'
 
@@ -17,6 +19,7 @@ axios.interceptors.request.use(config => {
 })
 
 Vue.prototype.$http = axios
+Vue.component('tree-table', treeTable)
 
 new Vue({
   router,

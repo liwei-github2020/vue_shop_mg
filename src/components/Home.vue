@@ -84,7 +84,7 @@ export default {
       this.isCollapse = !this.isCollapse;
     },
     savePath(e) {
-      // this.activePath = e;
+      this.activePath = e;
       window.sessionStorage.setItem("path", e);
     },
   },

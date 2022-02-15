@@ -47,6 +47,16 @@ const routes = [
 				name: 'Params',
 				component: () => import('@/components/goods/Params')
 			},
+			{
+				path: 'goods',
+				name: 'Goods',
+				component: () => import('@/components/goods/List')
+			},
+			{
+				path: 'goodAdd',
+				name: 'GoodsAdd',
+				component: () => import('@/components/goods/AddGood')
+			},
 		]
 	}
 ]

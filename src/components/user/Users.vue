@@ -404,7 +404,4 @@ export default {
 .search-box {
   margin-bottom: 10px;
 }
-.el-pagination {
-  margin-top: 10px;
-}
 </style>

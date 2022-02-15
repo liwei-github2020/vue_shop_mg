@@ -14,6 +14,10 @@ body,
   margin-bottom: 15px;
 }
 
+.el-pagination {
+  margin-top: 10px;
+}
+
 .el-radio__inner {
   border-radius: 0;
   border: 0;
@@ -29,4 +33,12 @@ body,
 
 .el-radio__input.is-checked .el-radio__inner {
   background: transparent;
+}
+
+.el-steps{
+  margin: 20px;
+}
+
+.ql-editor {
+  min-height: 300px !important;
 }

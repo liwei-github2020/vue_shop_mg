@@ -271,7 +271,7 @@ export default {
           return this.$message.error(res.meta.msg);
         }
         this.$message.success(res.meta.msg);
-        this.$refs.addFormRef.resetFields();
+        this.$router.push("goods");
       });
     },
   },
